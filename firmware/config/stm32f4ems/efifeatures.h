@@ -93,7 +93,7 @@
 #endif
 
 #ifndef EFI_HPFP
-#define EFI_HPFP FALSE
+#define EFI_HPFP TRUE
 #endif
 
 #ifndef EFI_HD_ACR
@@ -178,7 +178,7 @@
 #endif
 
 #ifndef EFI_VVT_PID
-#define EFI_VVT_PID FALSE
+#define EFI_VVT_PID TRUE
 #endif
 
 #define EFI_SIGNAL_EXECUTOR_SLEEP FALSE
