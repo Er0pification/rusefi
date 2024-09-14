@@ -93,7 +93,7 @@
 #endif
 
 #ifndef EFI_HPFP
-#define EFI_HPFP TRUE
+#define EFI_HPFP FALSE
 #endif
 
 #ifndef EFI_HD_ACR
@@ -178,7 +178,7 @@
 #endif
 
 #ifndef EFI_VVT_PID
-#define EFI_VVT_PID TRUE
+#define EFI_VVT_PID FALSE
 #endif
 
 #define EFI_SIGNAL_EXECUTOR_SLEEP FALSE
@@ -289,7 +289,7 @@
 #define EFI_CAN_GPIO TRUE
 #endif
 
-#define EFI_WIDEBAND_FIRMWARE_UPDATE TRUE
+#define EFI_WIDEBAND_FIRMWARE_UPDATE FALSE
 
 #ifndef EFI_AUX_SERIAL
 #define EFI_AUX_SERIAL TRUE
@@ -335,7 +335,7 @@
 #endif
 
 #ifndef EFI_EMBED_INI_MSD
-#define EFI_EMBED_INI_MSD TRUE
+#define EFI_EMBED_INI_MSD FALSE
 #endif
 
 #ifndef EFI_USB_SERIAL
